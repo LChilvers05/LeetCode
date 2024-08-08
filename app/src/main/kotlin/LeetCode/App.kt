@@ -8,5 +8,5 @@ class App {
 }
 
 fun main() {
-    println(App().question.solution("the sky is blu"))
+    println(App().question.solution("the sky is blue"))
 }
