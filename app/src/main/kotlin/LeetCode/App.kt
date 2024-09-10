@@ -1,9 +1,9 @@
 package LeetCode
 
 class App {
-    val question = ReverseWordsInAString()
+    val question = Pow()
 }
 
 fun main() {
-    println(App().question.solution("the sky is blue"))
+    println(App().question.solution(2.1, 3))
 }
