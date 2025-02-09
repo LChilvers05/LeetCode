@@ -2,11 +2,11 @@
 
 package LeetCode
 
-final class GroupAnagrams {
+ class GroupAnagrams {
 
     fun solution(strs: Array<String>): List<List<String>> {
         
-        var map = mutableMapOf<String, MutableList<String>>()
+        val map = mutableMapOf<String, MutableList<String>>()
 
         for (i in strs.indices) {
             val key = strs[i].toCharArray().sorted().joinToString("")

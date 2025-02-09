@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/two-sum/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class TwoSum {
+ class TwoSum {
 
     fun solution(nums: IntArray, target: Int): IntArray {
         var result: IntArray? = null

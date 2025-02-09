@@ -2,11 +2,11 @@
 
 package LeetCode
 
-final class SimplifyPath {
+ class SimplifyPath {
 
     fun solution(path: String): String {
 
-        var stack = mutableListOf<String>()
+        val stack = mutableListOf<String>()
 
         for (dir in path.split('/')) {
             if (dir == "..") {

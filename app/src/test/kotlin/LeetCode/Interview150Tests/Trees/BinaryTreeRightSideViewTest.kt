@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-final class BinaryTreeRightSideViewTest {
+ class BinaryTreeRightSideViewTest {
     
     @Test fun testSolution() {
         // given

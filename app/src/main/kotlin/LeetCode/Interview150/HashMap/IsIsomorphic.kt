@@ -2,7 +2,7 @@
 
 package LeetCode
 
-final class IsIsomorphic {
+ class IsIsomorphic {
 
     fun solution(s: String, t: String): Boolean {
         if (s.length != t.length) return false

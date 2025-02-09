@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-final class PlusOneTest {
+ class PlusOneTest {
     
     @Test fun testSolution() {
         // given

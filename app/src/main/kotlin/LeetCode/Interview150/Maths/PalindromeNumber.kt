@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/palindrome-number/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class PalindromeNumber {
+ class PalindromeNumber {
     fun solution(x: Int): Boolean {
         if (x < 0) return false
 

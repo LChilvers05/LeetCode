@@ -2,7 +2,7 @@
 
 package LeetCode
 
-final class ProductOfArrayExceptSelf {
+ class ProductOfArrayExceptSelf {
 
     fun solution(nums: IntArray): IntArray {
         val result = IntArray(nums.size) { 1 }

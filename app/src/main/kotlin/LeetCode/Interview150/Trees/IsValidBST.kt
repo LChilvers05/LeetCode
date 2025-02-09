@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/validate-binary-search-tree/submissions/1388603975/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class IsValidBST {
+ class IsValidBST {
     fun solution(root: TreeNode?): Boolean {
         if (root == null) return true
         var curr: Int? = null

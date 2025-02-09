@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-final class TwoSumTest {
+ class TwoSumTest {
     
     @Test fun testSolution() {
         // given

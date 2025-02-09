@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-final class ZigZagConversionTest {
+ class ZigZagConversionTest {
     
     @Test fun testSolution() {
         // given

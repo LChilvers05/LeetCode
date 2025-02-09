@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/flatten-binary-tree-to-linked-list/submissions/1385339837/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class FlattenBinaryTreeToLinkedList {
+ class FlattenBinaryTreeToLinkedList {
     fun solution(root: TreeNode?): TreeNode? {
         if (root == null) return null
         val stack = mutableListOf<TreeNode>()

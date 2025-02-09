@@ -2,7 +2,7 @@
 
 package LeetCode
 
-final class RemoveDuplicatesII {
+ class RemoveDuplicatesII {
 
     fun solution(nums: IntArray): Int {
         if (nums.size <= 2) return nums.size

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/container-with-most-water/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class WaterContainer {
+ class WaterContainer {
     // two pointers at ends
     // move pointer pointing to smaller height
     // intuition: try and maximise water by finding highter bars,

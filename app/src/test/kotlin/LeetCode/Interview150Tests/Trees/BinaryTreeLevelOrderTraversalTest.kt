@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-final class BinaryTreeLevelOrderTraversalTest {
+ class BinaryTreeLevelOrderTraversalTest {
     @Test fun testSolution() {
         // given
         val sut = BinaryTreeLevelOrderTraversal()

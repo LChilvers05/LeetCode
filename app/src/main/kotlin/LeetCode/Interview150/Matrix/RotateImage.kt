@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/rotate-image/submissions/1384202011/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class RotateImage {
+ class RotateImage {
     fun solution(matrix: Array<IntArray>) {
         val n = matrix.size
         

@@ -2,7 +2,7 @@
 
 package LeetCode
 
-final class HappyNumber {
+ class HappyNumber {
 
     fun solution(n: Int): Boolean {
 

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 package LeetCode
 
-final class PhoneNumberCombinations {
+ class PhoneNumberCombinations {
 
     private val keypad = mapOf(
         '2' to listOf('a', 'b', 'c'),
@@ -19,7 +19,7 @@ final class PhoneNumberCombinations {
 
         var x = 1
         digits.forEach { x *= keypad[it]?.size ?: 0 }
-        var result = MutableList(x) { "" }
+        val result = MutableList(x) { "" }
         var rotator = 1
         
         for (digit in digits.reversed()) {

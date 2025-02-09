@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-final class SquareRootTest {
+ class SquareRootTest {
     
     @Test fun testSolution() {
         // given

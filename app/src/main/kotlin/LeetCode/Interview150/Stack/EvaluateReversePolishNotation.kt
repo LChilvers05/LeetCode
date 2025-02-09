@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/evaluate-reverse-polish-notation/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class EvaluateReversePolishNotation {
+ class EvaluateReversePolishNotation {
     fun solution(tokens: Array<String>): Int {
         val stack = mutableListOf<Int>()
 

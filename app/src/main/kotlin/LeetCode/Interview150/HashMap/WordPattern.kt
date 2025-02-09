@@ -1,6 +1,6 @@
 package LeetCode
 
-final class WordPattern {
+ class WordPattern {
 
     fun solution(pattern: String, string: String): Boolean {
         val str = string.split(' ')

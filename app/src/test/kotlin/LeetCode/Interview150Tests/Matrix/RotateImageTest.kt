@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-final class RotateImageTest {
+ class RotateImageTest {
     
     @Test fun testSolution() {
         // given

@@ -4,7 +4,7 @@ import kotlin.test.Test
 import kotlin.test.assertTrue
 import kotlin.doubleArrayOf
 
-final class AverageLevelsBinaryTreeTest {
+ class AverageLevelsBinaryTreeTest {
     
     @Test fun testSolution() {
         // given

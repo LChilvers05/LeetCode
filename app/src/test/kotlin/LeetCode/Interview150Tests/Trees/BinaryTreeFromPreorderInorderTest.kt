@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-final class BinaryTreeFromPreorderInorderTest {
+ class BinaryTreeFromPreorderInorderTest {
     
     @Test fun testSolution() {
         // given

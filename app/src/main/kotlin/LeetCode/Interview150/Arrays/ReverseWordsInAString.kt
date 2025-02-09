@@ -2,11 +2,11 @@
 
 package LeetCode
 
-final class ReverseWordsInAString {
+ class ReverseWordsInAString {
 
     fun solution(s: String): String {
 
-        var result = StringBuilder()
+        val result = StringBuilder()
         var i = 0
 
         for (char in s) {

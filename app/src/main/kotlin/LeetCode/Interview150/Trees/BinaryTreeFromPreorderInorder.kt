@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class BinaryTreeFromPreorderInorder {
+ class BinaryTreeFromPreorderInorder {
     fun buildTree(preorder: IntArray, inorder: IntArray): TreeNode? {
         if (preorder.isEmpty()) return null
 
@@ -9,7 +9,7 @@ final class BinaryTreeFromPreorderInorder {
         val root = TreeNode(value)
         if (preorder.size == 1) return root
 
-        var i = 0;
+        var i = 0
         while (inorder[i] != value) i++
 
         root.left = buildTree(

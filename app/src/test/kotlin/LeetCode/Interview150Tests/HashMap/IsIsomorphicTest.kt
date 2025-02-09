@@ -1,11 +1,10 @@
 package LeetCode
 
 import kotlin.test.Test
-import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.assertFalse
 
-final class IsIsomorphicTest {
+ class IsIsomorphicTest {
 
     @Test fun testSolution() {
         // given

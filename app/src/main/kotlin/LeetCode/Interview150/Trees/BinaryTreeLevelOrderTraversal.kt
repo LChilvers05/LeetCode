@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/binary-tree-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class BinaryTreeLevelOrderTraversal {
+ class BinaryTreeLevelOrderTraversal {
     fun solution(root: TreeNode?): List<List<Int>> {
         if (root == null) return emptyList()
         val result = mutableListOf<List<Int>>()

@@ -2,7 +2,7 @@
 
 package LeetCode
 
-final class SpiralMatrix {
+ class SpiralMatrix {
 
     fun solution(matrix: Array<IntArray>): List<Int> {
 

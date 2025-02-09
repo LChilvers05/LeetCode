@@ -6,7 +6,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertNotNull
 
-final class AppTest {
+ class AppTest {
     @Test fun appHasQuestion() {
         // given
         val app = App()

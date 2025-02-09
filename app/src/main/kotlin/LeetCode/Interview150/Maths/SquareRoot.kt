@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/sqrtx/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class SquareRoot {
+ class SquareRoot {
     fun solution(x: Int): Int {
         if (x == 0 || x == 1) return x
         // square root is just binary search!

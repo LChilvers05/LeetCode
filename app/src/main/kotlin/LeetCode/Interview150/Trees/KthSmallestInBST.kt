@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/kth-smallest-element-in-a-bst/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode 
 
-final class KthSmallestInBST {
+ class KthSmallestInBST {
     fun solution(root: TreeNode?, n: Int): Int {
         var k = n
         var result = -1

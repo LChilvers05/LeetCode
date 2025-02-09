@@ -2,7 +2,7 @@
 
 package LeetCode
 
-final class AverageLevelsBinaryTree {
+ class AverageLevelsBinaryTree {
     fun averageOfLevels(root: TreeNode?): DoubleArray {
         
         val result = mutableListOf<Double>()

@@ -3,7 +3,7 @@ package LeetCode
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-final class RemoveDuplicatesIITest {
+ class RemoveDuplicatesIITest {
 
     @Test fun testSolution() {
         // given

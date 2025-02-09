@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/summary-ranges/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class SummaryRange {
+ class SummaryRange {
     fun solution(nums: IntArray): List<String> {
         if (nums.isEmpty()) return emptyList()
         if (nums.size == 1) return listOf("${nums[0]}")
@@ -28,6 +28,6 @@ final class SummaryRange {
         if (prev > start) sb.append("->$prev")
         result.add(sb.toString())
 
-        return result;
+        return result
     }
 }

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/minimum-absolute-difference-in-bst/submissions/1381501214/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class MinimumAbsoluteDifferenceBST {
+ class MinimumAbsoluteDifferenceBST {
     fun solution(root: TreeNode?): Int {
         // inorder traversal to then compare adjacent elements
         var result = Int.MAX_VALUE

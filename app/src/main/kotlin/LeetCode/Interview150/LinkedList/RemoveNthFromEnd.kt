@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1388010505/?envType=study-plan-v2&envId=top-interview-150
 package LeetCode
 
-final class RemoveNthFromEnd {
+ class RemoveNthFromEnd {
     fun solution(head: ListNode?, n: Int): ListNode? {
         if (head?.next == null) return null
         var h = head

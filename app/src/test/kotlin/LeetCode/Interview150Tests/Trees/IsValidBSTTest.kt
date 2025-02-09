@@ -4,7 +4,7 @@ import kotlin.test.Test
 import kotlin.test.assertTrue
 import kotlin.test.assertFalse
 
-final class IsValidBSTTest {
+ class IsValidBSTTest {
     @Test fun testSolution() {
         // given
         val sut = IsValidBST()
